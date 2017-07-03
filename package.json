@@ -1,0 +1,26 @@
+{
+  "name": "14er-database",
+  "version": "1.0.0",
+  "description": "14er Database Files",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/14er/14er_database.git"
+  },
+  "author": "Jacob H Feldman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/14er/14er_database/issues"
+  },
+  "homepage": "https://github.com/14er/14er_database#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "csv": "^1.1.1",
+    "dotenv": "^4.0.0",
+    "knex": "^0.13.0",
+    "pg": "^6.4.0"
+  }
+}
