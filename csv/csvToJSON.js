@@ -19,7 +19,6 @@ fs.readFile('./account.csv', (error, data) => {
       }
       allAccounts.push(account)
     }
-    console.log(allAccounts);
     fs.writeFile('../data-sets/account.json', JSON.stringify(allAccounts), error => {
       console.log("account.json created");
     });
