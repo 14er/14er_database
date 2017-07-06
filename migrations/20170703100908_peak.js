@@ -5,8 +5,8 @@ exports.up = function(knex, Promise) {
     table.text('peak_name').notNull();
     table.integer('elevation').notNull();
     table.text('image_url');
-    table.text('map_url');
     table.text('difficulty');
+    table.integer('rank');
     table.integer('range_id').unsigned().references('id').inTable('range').onDelete('cascade');
   });
 };
