@@ -1,15 +1,1 @@
-[{
-  "name": "Elk"
-}, {
-  "name": "Front"
-}, {
-  "name": "Mosquito"
-}, {
-  "name": "San Juan"
-}, {
-  "name": "Sangre de Cristo"
-}, {
-  "name": "Sawatch"
-}, {
-  "name": "Tenmile"
-}]
+[{"name":"Elk"},{"name":"Front"},{"name":"Mosquito"},{"name":"San Juan"},{"name":"Sangre de Cristo"},{"name":"Sawatch"},{"name":"Tenmile"}]
