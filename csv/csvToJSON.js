@@ -54,7 +54,7 @@ fs.readFile('./peaks.csv', (error, data) => {
         rank: row[0],
         range_id: row[5]
       }
-      allPeaks.push(peak)
+      allPeaks.push(peak);
     }
     fs.writeFile('../data-sets/peaks.json', JSON.stringify(allPeaks), error => {
       console.log("peaks.json created");
@@ -70,6 +70,9 @@ fs.readFile('./account_peak.csv', (error, data) => {
       const account_peak = {
         account_rating: row[2],
         account_image_url: row[3],
+        account_notes: row[4],
+        is_complete: row[5],
+        date_complete: row[6],
         account_id: row[0],
         peak_id: row[1]
       }
