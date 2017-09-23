@@ -49,7 +49,6 @@ knex seed:run --env-development
 ## Built With
 
 * [Node.js](https://nodejs.org/en/) - JavaScript Runtime/Dependency Management.
-* [Express](https://expressjs.com/) - Minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
 * [PostgreSQL](https://www.postgresql.org/) - PostgreSQL is a powerful, open source object-relational database system.
 * [Knex.js](knexjs.org/) - SQL query builder for Postgres, MSSQL, MySQL, etc...
 
