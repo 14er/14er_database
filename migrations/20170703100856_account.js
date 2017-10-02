@@ -6,10 +6,10 @@ exports.up = function(knex, Promise) {
     table.text('last_name').notNull();
     table.text('email').notNull();
     table.text('password').notNull();
-    table.text('image');
-    table.text('facebook_url');
-    table.text('instagram_url');
-    table.text('twitter_url');
+    table.text('image').defaultTo('https://s3.us-east-2.amazonaws.com/co14/default_profile_icon.png');
+    table.text('facebook_url').defaultTo('https://facebook.com');
+    table.text('instagram_url').defaultTo('https://instagram.com');
+    table.text('twitter_url').defaultTo('https://twitter.com');
   })
 };
 
